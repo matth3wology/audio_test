@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #Need to get (x,y) coordinates of a DFFT from a wave sample. @matth3wology
 
 #Import wav file to matplot Frequency Domain
-m = wave.open("1.wav","r")
+m = wave.open("440.wav","r")
 
 #Convert wav to numpy matrix
 frames = m.readframes(-1)

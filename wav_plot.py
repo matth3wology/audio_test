@@ -3,7 +3,7 @@ import wave
 import numpy as np
 import matplotlib.pyplot as plt
 
-m = wave.open('1.wav','r')
+m = wave.open('440.wav','r')
 frames = m.readframes(-1)
 frames = np.fromstring(frames,"Int16")
 
